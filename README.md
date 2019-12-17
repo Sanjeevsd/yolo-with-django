@@ -6,5 +6,5 @@ The project uses yolo data model for multi oject detection in realtime using web
 
 ![GitHub Logo](/screenshots/yolohome.png)
 ![GitHub Logo](/screenshots/cell1.png)
-![GitHub Logo](/screenshots/persons1.png)
+![GitHub Logo](/screenshots/persons.png)
 
