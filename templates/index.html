@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>YOLO in Djnago</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+<div class="header">
+  <h1>YOLO with Django</h1>
+  <h3>A <b>Realtime</b> Multi-object Detection in webapp</h3>
+    <br><br>
+    <form action="/yolo">
+       <button type="submit" class="btn btn-dark">Detect Object</button>
+        <p>Close the window afterwards to exit the detection</p>
+</form>
+
+</div>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h3>Sanjeev Das</h3>
+    <p>4th year BCT student @ Kantipur Engineering College. Pursuing a career in AI/ML</p>
+      <ul>
+          <li>Github: <a href="https://github.com/sanjeevsd">https://github.com/sanjeevsd</a></li>
+          <li>Contact: 9818192165</li>
+      <li>Email: memyselfsd11@gmail.com  (:P)</li>
+          <li>0808bct2073@student.kec.edu.np</li>
+      </ul>
+  </div>
+  <div class="main">
+    <h2>YOLO in Django</h2>
+    <h5>By using YOLO Algorithm together with django webframework, a realtime multi object detecting webapp is built.</h5>
+    <p>The YOLO alogirthm is basically copy paste(Understanding how it works took some time :D)</p>
+    <p>Implementing YOLO in django framework was quite easy as I have learned django in the past and certified too from @Neosphere</p>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <form action="https://www.facebook.com/sanzeevd">
+       <button type="submit" class="btn btn-primary">Facebook</button>
+
+</form>
+</div>
+
+</body>
+</html>
